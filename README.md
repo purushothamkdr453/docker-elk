@@ -25,18 +25,18 @@ you can verify the elk stack containers using below command.
 docker ps -a
 ```
 
-Elasticsearch exposes rest api at port 9200
-Elasticsearch nodes communicate at port  9300
-Kibana exposes the at port 5601
-logstash listens at port 5000
+Elasticsearch exposes rest api at port 9200<br/>
+Elasticsearch nodes communicate at port  9300<br/>
+Kibana exposes the at port 5601<br/>
+logstash listens at port 5000<br/>
 
-you can access the elasticsearch rest api at port 9200 http://<ipaddress>:9200
+you can access the elasticsearch rest api at port 9200 http://\<ipaddress\>:9200
 
 Replace ipaddress with your host ip(not container ip)
 
 ![alt text](./img/Elasticsearch-home.png)
 
-you can access the kibana at port 5601 http://<ipaddress>:5601
+you can access the kibana at port 5601 http://\<ipaddress\>:5601
 
 Replace ipaddress with your host ip(not container ip)
 
@@ -63,20 +63,6 @@ Now we can see the logs hitting kibana
 
 ![alt text](./img/logstash-logs.png)
 
-You can also look at new index create by hitting the following endpoint - http://<ipaddress>:9200/_cat/indices?pretty
+You can also look at new index create by hitting the following endpoint - http://\<ipaddress\>:9200/_cat/indices?pretty
 
-**Note** replace <ipaddress> with your host ip address
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-
+**Note** replace ipaddress with your host ip address.
